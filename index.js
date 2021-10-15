@@ -1,18 +1,32 @@
-const fs = require('firebase-admin');
+const functions = require("firebase-functions");
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const express = require("express");
+// const route = require("./routes/routes");
 
-const serviceAccount = require('./tinggpayments-329107-d675c0a21e91.json');
+const app = express();
 
-fs.initializeApp({
- credential: fs.credential.cert(serviceAccount)
+app.use(cors({ origin: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+// routes middleware
+// app.use(route);
+
+// define a simple route
+app.get('/', (req, res) => {
+    res.json({"message": "Welcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes."});
+});
+// 404 handler
+app.use((req, res) => {
+  res.status(404).send("endpoint not found");
 });
 
-const db = fs.firestore(); 
-const usersDb = db.collection('users');
-const liam = usersDb.doc('lragozzine'); 
-await liam.set({
-    first: 'Liam',
-    last: 'Ragozzine',
-    address: '133 5th St., San Francisco, CA',
-    birthday: '05/13/1990',
-    age: '30'
-   });
+// listen for requests
+app.listen(3000, () => {
+    console.log("Server is listening on port 3000");
+});
+
+exports.App = functions.https.onRequest(app);
+
+

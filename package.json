@@ -4,11 +4,13 @@
   "description": "receive payments through tingg",
   "main": "index.js",
   "scripts": {
-    "test": "npm dev"
+    "test": "npm dev",
+    "start": " node ./index.js"
   },
   "author": "John Wati",
   "license": "ISC",
   "dependencies": {
-    "firebase-admin": "^10.0.0"
+    "firebase-admin": "^10.0.0",
+    "firebase-functions": "^3.15.7"
   }
 }
