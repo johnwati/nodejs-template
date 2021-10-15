@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tinggpayments-329107",
+  "private_key_id": "d675c0a21e91a7a9a9711fe9bc8445659cc03d93",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwTloNrMeSZlpJ\n0JKWwAihhClTmgmYR0NTBXGoJgcj4TgHtL1c6w5FCt7CXpaxJLUaYOgprDzKfRPU\n4uXPeyFYWALakV5cNy1zr1dR79KH9xDijSepDJPM+o/P6u9YRsbgk3uaNdP3sY1Z\nf4rVZaXvoRU9iBtElwU3h3mufS6YhwObe8W+CwoeLsJH0q+nQVs8De1P2Fe87Cbl\noLbliVkDJ2fQGNq7srn7YMgvc0+lnwd0Sei9wX5rissTWucS4bLKaF4SIXpwpoWI\n+XbgVuHupsGErl6B9nEh/6zbBNEqIWsdrtAaUhPHm/nuPfl7nHULN6U3LWUf43HZ\nyx1vBvqDAgMBAAECggEADTEU9zhPXSVAFOKApWZMVFwsL2+Iz5ZoHi/RF5tze1F1\nvMs0RAiTx8IOyuJYSibh+iL4HBjMGlE43lFKkAy5gP+3hEfOP1N4Q34CKEUBLrU4\n0+AV8Jsv+pgLkgC/1I4Z1rc8+gaUYVCCsAilXbQ+XJYOnc0E+qEw0xKASKMLN9RP\n48ZH7bx/Pq78jB80Xk97BPUxWDsb1EWpsfSjeT4DM8qV6k8/eyTuQgjp9Y83HO5u\nHs6mAfVnM+r8Nbnwh2jcuSDHbCa9DjSahxdh641Lv1LfECnv4Cda4WCEdhXdDvvX\nh6c3DEpwSp74jGGnYlCQV6Rr7ngFkkjpAyn/mrlmCQKBgQDZvmzKxzWu3MfER8aB\n1L3nyTh/j9J7DAX7REe5XYwZuWFM4GZl9Yzgys46prfM3zeOsuonyZnnWuU71fna\nwjRAwQfNSZZLVH2aoGWnFP60+ryh5U8w4bP6sbiq88JwKs7SLY46kBun6uFw+WmB\nV7jGJYhI8YVZ8dqmkF0K6rC/jQKBgQDPSCiYFd+oznfBb44GK9QBN3tkhbhZxhGo\n229vEVW2gHHF99Uqo38ZcIQBUcAoJ8q6zP5CotlF3kIePyD+4UjfaIolFhz3epm/\nk4EEWgL+rvh1vjDMy/7+WCeoVsEF0bMvqkoIpQ5Hio900kJXCxgmis6VmY261iEf\nt5nilszWTwKBgQCmFT1eHjywN+6XpDehZ+fCGBVkFwtwl2colJgwp03pgSDaRn9U\nXcsq2wYabnfbaJcz3PwFhRxC/23CCiAd3+uDSLjuuKZOpw93FcjzfGwbFvUyd3nD\nyyRAn7Y/jtZMQBqo7d6ChNDTb7CtP1BeO87QNGiTWsVgKb2hNpQBc6mFMQKBgQCh\n/lDLWvzqnkF1SUuDgykysjua+e5zKpqOjr/t22xTLtq7zs4nfpNMPGTN6yfzufV0\nO9TSGxcWxXaC0O9mgoZDIx4jkb6dopEZ6ZtA3V/NzsyaqELXKu5jtF158CL1+0bA\nj6NAUk5wltc6g0AZarA7HuwIenMLe2FzujdnoFcBfQKBgDLpXHz0hMDCmvzrHUcL\ngi2iy597F9wWX2G6Hb1TT3AJ7LHZPrtNOm44X+gJXw8VgyEwVGAQw0d63P/RAhGE\nkJEWEpzp2gUlaf52cmwPVoWYTFXJPNqSW4QmDAHOGr7UHlIyDgdW2e75X1U+2RG7\nyAlZY4YXlaeO1xS0EPQIWX8k\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-177@tinggpayments-329107.iam.gserviceaccount.com",
+  "client_id": "107910464071350780569",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-177%40tinggpayments-329107.iam.gserviceaccount.com"
+}

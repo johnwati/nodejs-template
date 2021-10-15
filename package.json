@@ -1,0 +1,14 @@
+{
+  "name": "ting_payment",
+  "version": "1.0.0",
+  "description": "receive payments through tingg",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm dev"
+  },
+  "author": "John Wati",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^10.0.0"
+  }
+}
