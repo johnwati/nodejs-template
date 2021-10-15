@@ -2,15 +2,16 @@
   "name": "ting_payment",
   "version": "1.0.0",
   "description": "receive payments through tingg",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "npm dev",
-    "start": " node ./index.js"
+    "start": " node ./server.js"
   },
   "author": "John Wati",
   "license": "ISC",
   "dependencies": {
     "firebase-admin": "^10.0.0",
-    "firebase-functions": "^3.15.7"
+    "firebase-functions": "^3.15.7",
+    "mongoose": "^5.13.11"
   }
 }
